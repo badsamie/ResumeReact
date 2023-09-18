@@ -18,7 +18,7 @@ function ImageWithConfetti() {
       });
     };
 
-    const confettiInterval = setInterval(createConfetti, 40);
+    const confettiInterval = setInterval(createConfetti, 50);
 
     setTimeout(() => {
       clearInterval(confettiInterval);

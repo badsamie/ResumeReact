@@ -35,7 +35,6 @@ ul {
   width: 350px;
   display: block;
   margin: 0 auto;
-  margin-top: 750px;
 }
 .social-icon {
   color: #fff;
@@ -123,4 +122,12 @@ ul.social-icons {
 }
 .fa-github:hover {
   background-color: #5a32a3;
+}
+/* --------------------------------------- */
+.form {
+  border: 2px solid wheat;
+  width: 350px;
+}
+.form button {
+  cursor: pointer;
 }

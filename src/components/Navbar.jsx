@@ -1,32 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./../styles/Navbar.css";
 
-function Navbar(props) {
+function Navbar() {
   return (
-    <div>
+    <div className="Navbar">
       <h1>
         𝓪𝓲𝓮𝓼<span> 𝓽𝓱𝓮 𝓬𝓻𝓮𝓪𝓽𝓸𝓻</span>
       </h1>
-
-      <input id="burger" type="checkbox" />
-
-      <label for="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-      <nav>
-        <ul>
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="#my-anchor">My projects</a>
-          </li>
-          <li>
-            <a href="#">Follow me</a>
-          </li>
-        </ul>
-      </nav>
+      <p className="nav-list">
+        <Link to="/">home</Link>
+      </p>
+      <p className="nav-list">
+        <Link to="/hero">about me</Link>
+      </p>
+      <p className="nav-list">
+        <Link to="/follow">follow me</Link>
+      </p>
     </div>
   );
 }

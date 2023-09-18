@@ -1,6 +1,5 @@
 .info {
   position: relative;
-  top: 670px;
 }
 .info h2 {
   color: #aaa;
@@ -72,7 +71,6 @@
 .card {
   list-style: none;
   position: relative;
-  top: 700px;
 }
 
 .card:before {

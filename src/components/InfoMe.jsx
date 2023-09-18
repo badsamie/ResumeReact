@@ -7,7 +7,7 @@ const InfoMe = () => {
       <div className="stuck">
         <p>JavaScript</p>
         <p>React / Redux</p>
-        <p id="my-anchor">TypeScript</p>
+        <p>TypeScript</p>
       </div>
     </div>
   );
